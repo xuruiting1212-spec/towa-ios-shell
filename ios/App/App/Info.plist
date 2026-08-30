@@ -66,5 +66,25 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
+
+	<!-- 权限用途说明（缺失会导致对应能力请求静默失败/崩溃） -->
+	<key>NSCalendarsUsageDescription</key>
+	<string>Towa 需要读取你的日历，以便同步课表、了解你的日程安排。</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>Towa 需要完整读取你的日历，以便同步课表、了解你的日程安排。</string>
+	<key>NSCalendarsWriteOnlyAccessUsageDescription</key>
+	<string>Towa 需要写入你的日历，用于保存 Towa 帮你安排的日程。</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>Towa 需要读取提醒事项，用于管理你的待办和日程。</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Towa 需要使用你的位置信息来提供天气等个性化服务。</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Towa 需要使用麦克风进行语音聊天。</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Towa 需要使用相机让你拍照分享。</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Towa 需要访问相册，以便你选择图片发送。</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Towa 需要保存图片到你的相册。</string>
 </dict>
 </plist>
