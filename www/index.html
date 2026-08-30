@@ -1,15 +1,22 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8" />
-  <title>Towa</title>
-</head>
-<body>
-  <!-- 壳加载的是 server.url 的线上网页；此文件仅作为 Capacitor webDir 占位 -->
-  <p>Loading Towa…</p>
-  <script>
-    // 若线上页面加载失败可兜底提示
-    setTimeout(() => { location.replace('https://chat.pipedream520towa.cn/') }, 3000);
-  </script>
-</body>
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#FBF7F5" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Towa Chat</title>
+    <script type="module" crossorigin src="/assets/index-DREXZmsB.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-aKtaBQYM.js">
+    <link rel="modulepreload" crossorigin href="/assets/reactivity.esm-bundler-DvcuVrV2.js">
+    <link rel="modulepreload" crossorigin href="/assets/vue-router-CphTC4Qo.js">
+    <link rel="modulepreload" crossorigin href="/assets/useSupabase-D1JYfpyq.js">
+    <link rel="modulepreload" crossorigin href="/assets/supabase-BFz90NAY.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-nyJPunv3.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
 </html>
