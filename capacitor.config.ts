@@ -3,7 +3,8 @@ import type { CapacitorConfig } from '@capacitor/cli';
 /**
  * Towa iOS 壳（远程加载版）
  * - server.url: 加载线上网页；网页更新走 Vercel 部署，ipa 打开即新版（不用重打包）
- * - 桥已加 waitForBridge()（等桥就绪再调用，避免白屏竞态）
+ * - ios.contentInset: 'never' —— WebView 全屏填满，网页自己的 safe-* 处理刘海/Home条，
+ *   避免"自动内缩 + 网页再内缩"造成的上下双重空白
  */
 const config: CapacitorConfig = {
   appId: 'com.pipedream520.towa',
@@ -14,7 +15,7 @@ const config: CapacitorConfig = {
     cleartext: false,
   },
   ios: {
-    contentInset: 'automatic',
+    contentInset: 'never',
   },
 };
 
