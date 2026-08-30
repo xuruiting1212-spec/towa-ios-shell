@@ -1,0 +1,21 @@
+{
+  "name": "towa-ios-capacitor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Towa iOS 壳：Capacitor 加载线上网页 + 原生插件（日历/本地通知/震动/设备信息）",
+  "scripts": {
+    "sync": "cap sync ios",
+    "add:ios": "cap add ios"
+  },
+  "dependencies": {
+    "@capacitor/calendar": "^1.0.1",
+    "@capacitor/core": "^8.5.0",
+    "@capacitor/device": "^8.0.3",
+    "@capacitor/haptics": "^8.0.2",
+    "@capacitor/local-notifications": "^8.3.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.0",
+    "@capacitor/ios": "^8.5.0"
+  }
+}

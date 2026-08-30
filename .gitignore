@@ -1,0 +1,21 @@
+# 依赖
+node_modules/
+package-lock.json.bak
+
+# iOS 构建产物（CI 里重新生成，不需要提交）
+ios/App/Pods/
+ios/App/build/
+ios/App/DerivedData/
+ios/App/App/Public/
+
+# 证书/密钥
+*.p12
+*.mobileprovision
+*.cer
+*.pem
+*.key
+
+# 杂项
+.DS_Store
+*.log
+capacitor.config.local.json
