@@ -86,5 +86,9 @@
 	<string>Towa 需要访问相册，以便你选择图片发送。</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Towa 需要保存图片到你的相册。</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Towa 需要通过蓝牙连接 Cici+ 玩具，实时根据你的状态互动。</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Towa 需要通过蓝牙连接 Cici+ 玩具，实时根据你的状态互动。</string>
 </dict>
 </plist>
