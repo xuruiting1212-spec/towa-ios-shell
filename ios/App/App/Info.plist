@@ -80,6 +80,8 @@
 	<string>Towa 需要使用你的位置信息来提供天气等个性化服务。</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Towa 需要使用麦克风进行语音聊天。</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Towa 用 Face ID 帮你锁住信笺、生理期等私密页面。</string>
 	<key>NSCameraUsageDescription</key>
 	<string>Towa 需要使用相机让你拍照分享。</string>
 	<key>NSPhotoLibraryUsageDescription</key>
