@@ -34,7 +34,9 @@ public class TowaLivePhotoPlugin: CAPPlugin, CAPBridgedPlugin, PHPickerViewContr
             return
         }
         pendingCall = call
-        let limit = max(1, min(9, call.getInt("limit") ?? 1))
+        // 0 = 不限制张数（PHPicker 的约定）
+        let requested = call.getInt("limit") ?? 0
+        let limit = max(0, requested)
 
         DispatchQueue.main.async {
             var config = PHPickerConfiguration(photoLibrary: PHPhotoLibrary.shared())
