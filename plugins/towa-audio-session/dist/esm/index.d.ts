@@ -1,4 +1,4 @@
-﻿export interface TowaAudioSessionPlugin {
+export interface TowaAudioSessionPlugin {
   activate(): Promise<{ ok: boolean }>;
   deactivate(): Promise<{ ok: boolean }>;
 }

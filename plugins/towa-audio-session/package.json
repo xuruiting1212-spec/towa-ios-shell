@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "towa-audio-session",
   "version": "1.0.0",
   "description": "Towa native AVAudioSession playback bridge",
