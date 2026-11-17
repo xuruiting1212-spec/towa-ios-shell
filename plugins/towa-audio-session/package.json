@@ -1,0 +1,21 @@
+﻿{
+  "name": "towa-audio-session",
+  "version": "1.0.0",
+  "description": "Towa native AVAudioSession playback bridge",
+  "main": "dist/esm/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "files": [
+    "ios/Sources",
+    "Package.swift",
+    "dist"
+  ],
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    }
+  },
+  "peerDependencies": {
+    "@capacitor/core": ">=8.0.0"
+  }
+}

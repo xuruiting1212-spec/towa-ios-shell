@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "towa-ios-capacitor",
     "version":  "1.0.0",
     "private":  true,
@@ -18,7 +18,8 @@
                          "@capgo/capacitor-native-biometric":  "^8.9.2",
                          "@capacitor/share":  "^8.0.3",
                          "@capacitor/filesystem":  "^8.1.5",
-                         "towa-live-photo":  "file:plugins/towa-live-photo"
+                         "towa-live-photo":  "file:plugins/towa-live-photo",
+                         "towa-audio-session":  "file:plugins/towa-audio-session"
                      },
     "devDependencies":  {
                             "@capacitor/cli":  "^8.5.0",
